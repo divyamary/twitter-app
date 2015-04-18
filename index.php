@@ -1,8 +1,4 @@
 <?php
-ini_set('display_startup_errors',1);
-ini_set('display_errors',1);
-error_reporting(-1);
-
 //start session
 session_start();
 //just simple session reset on logout click
@@ -48,8 +44,7 @@ if(isset($_SESSION['status']) && $_SESSION['status']=='verified') {
 	$oauth_token 		= $_SESSION['request_vars']['oauth_token'];
 	$oauth_token_secret = $_SESSION['request_vars']['oauth_token_secret'];
 
-	//Show welcome message
-	echo '<div class="container welcome">';
+	echo '<div class="container">';
 	echo '<div class="row">';
 	echo '<div class="three columns"><h5>@'.$screenname.'</h5></div><div class="nine columns right"><a class="button logout" href="index.php?reset=1">Logout</a></div>';
 	echo '</div></div>';
