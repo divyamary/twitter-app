@@ -1,0 +1,118 @@
+body{
+margin:0;
+background: url('../images/island.gif');
+}
+h1{
+margin-top:20px;
+font-family: 'Fredericka the Great', cursive;
+color:white;
+text-align:center;
+}
+p{
+color:white;
+text-align:center;
+}
+h5{
+color:white;
+text-align:center;
+}
+#twitter-widget{
+
+}
+.right{
+text-align:right;
+}
+.logincontainer{
+margin-top:200px;
+}
+.login{
+text-align:center
+}
+.signin{
+height:55px;
+padding-left: 10px;
+padding-top:5px;
+border: 2px solid #fff;
+}
+.signin span{
+padding-left:60px;
+padding-top:5px;
+display:inline-block;
+color:#fff;
+background:url('../images/twitter.png') no-repeat;
+}
+.signin:hover{
+border: 2px solid #6ACFF4;
+padding-left:10px;
+padding-top:5px;
+display:inline-block;
+}
+.signin:hover span{
+color:#6ACFF4;
+}
+.logout{
+border: 1px solid #6ACFF4;
+color:#6ACFF4;
+}
+.section {
+  color:#fff;
+  margin: 10rem 0 10rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+#address{
+width:50%;
+border-radius:0px;
+box-sizing: border-box;
+border:1px solid #232323;
+color:black;
+}
+
+#submit{
+border-radius:0px;
+background:white;
+color:#232323;
+font-size:1.3rem;
+border:1px solid #232323;
+}
+#submit:hover{
+border-radius:0px;
+background:rgba(0,0,0,0.7);
+color:#fff;
+font-size:1.3rem;
+border:1px solid #fff;
+}
+.result{
+margin:5px;
+}
+.success p{
+padding:4px;
+font-size:2rem;
+background:#242424;
+color:#CDCDCD;
+}
+
+.fail p{
+padding:4px;
+font-size:2rem;
+background:#242424;
+color:#eb4d30;
+}
+.postalcode{
+color:#fed501;
+}
+
+.map{
+    
+}
+#map-canvas {
+    margin: 0;
+    padding: 0;
+    max-width: 800px; 
+    height: 400px;
+    width: 100%;
+}
